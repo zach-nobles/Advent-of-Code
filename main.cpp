@@ -1,6 +1,6 @@
 // main.cpp
 #include <iostream>
-#include "Day_00/Day_00.h"
+#include "Challenges/Day_00/Day_00.h"
 
 using namespace std;
 int main() {
