@@ -1,11 +1,15 @@
 // main.cpp
 #include <iostream>
-#include "Challenges/Day_00/Day_00.h"
+#include <string>
+
+#include "Challenges/Day_01/Day_01.hpp"
 
 using namespace std;
 int main() {
-    cout << endl << "[RUNNING] Advent of Code Project" << endl;
-    Day_00();
-    cout << "[COMPLETED] Advent of Code Project" << endl << endl;
+    std::string document = "Challenges/Day_01/document.txt";
+    Calibration Cal(document);
+    double sum = Cal.calibrationSum();
+    cout << sum <<endl;
+
     return 0;
 }
