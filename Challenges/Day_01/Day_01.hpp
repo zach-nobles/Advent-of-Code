@@ -7,10 +7,10 @@ class Calibration
   public:
     Calibration(std::string document);
     double calibrationSum();
-    int calibrationVal(std::string line);
 
   private:
-    void deserializeDoc(const std::string& document);
+    void readDoc(const std::string& document);
+    int calibrationVal(std::string line);
     void initializeMap();
 
     std::vector<std::string> lines_;

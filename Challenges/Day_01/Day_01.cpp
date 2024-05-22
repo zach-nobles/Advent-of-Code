@@ -5,7 +5,7 @@
 
 Calibration::Calibration(std::string document) 
 {
-  deserializeDoc(document);
+  readDoc(document);
   initializeMap();
 }
 
@@ -17,7 +17,7 @@ void Calibration::initializeMap()
   }
 }
 
-void Calibration::deserializeDoc(const std::string& document)
+void Calibration::readDoc(const std::string& document)
 {
   std::ifstream doc(document);
 
