@@ -1,4 +1,5 @@
 #!/bin/bash
+set -e
 
 # Run CMake and build the project
 echo $'\n[BUILDING]'
