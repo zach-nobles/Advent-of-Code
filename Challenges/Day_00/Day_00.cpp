@@ -3,5 +3,5 @@
 #include <iostream>
 
 void Day_00() {
-    std::cout << "Day 00 Sample Text!" << std::endl;
+    std::cout << "Day 00 Sample Text!" << "\n";
 }
