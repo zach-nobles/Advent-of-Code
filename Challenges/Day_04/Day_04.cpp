@@ -10,7 +10,6 @@ ScatchCards::ScatchCards(std::string cards_input)
 
 void ScatchCards::readDoc(const std::string& cards_input)
 {
-  std::vector<std::string> lines;
   std::ifstream input(cards_input);
 
   if (!input) 

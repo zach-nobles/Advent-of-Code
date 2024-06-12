@@ -2,15 +2,14 @@
 #include <iostream>
 #include <string>
 
-#include "Challenges/Day_04/Day_04.hpp"
+#include "Challenges/Day_05/Day_05.hpp"
 
 using namespace std;
 int main() 
 {
-    std::string cards_input = "Challenges/Day_04/cards.txt";
-    ScatchCards Cards(cards_input);
-    int total_points = Cards.calculateCardsNum();
-    std::cout << total_points << std::endl;
-    
+    std::string puzzle_input = "Challenges/Day_05/maps.txt";
+    SeedLocation locations(puzzle_input);
+    unsigned long min_location = locations.lowestLocationNumRanges();
+    std::cout << min_location << std::endl;
     return 0;
 }
